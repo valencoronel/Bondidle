@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+#logo {
+            width: 300px; /* Aumenta el tamaño de la imagen */
+        }
+
+#titulo {
+            font-size: 48px; /* Aumenta el tamaño del título */
+        }
+
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
