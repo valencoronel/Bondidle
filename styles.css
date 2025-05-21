@@ -21,24 +21,25 @@ body {
 header {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Centrar horizontalmente */
     display: flex;
     align-items: center;
+    justify-content: center; /* Centrar los elementos dentro del header */
+    gap: 10px; /* Espacio entre el logo y el título */
 }
 
 /* Logo */
 #logo {
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
+    width: 200px; /* Aumenta el tamaño del logo */
+    height: 200px; /* Aumenta el tamaño del logo */
 }
 
 /* Título centrado */
 #titulo {
-    font-size: 3rem;
+    font-size: 4rem; /* Aumenta el tamaño del título */
     font-weight: bold;
     text-align: center;
-    flex-grow: 1;
     color: #fff; /* Blanco */
 }
 
