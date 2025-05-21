@@ -5,15 +5,6 @@
     box-sizing: border-box;
 }
 
-#logo {
-            width: 300px; /* Aumenta el tamaño de la imagen */
-        }
-
-#titulo {
-            font-size: 48px; /* Aumenta el tamaño del título */
-        }
-
-
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -37,14 +28,14 @@ header {
 
 /* Logo */
 #logo {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     margin-right: 10px;
 }
 
 /* Título centrado */
 #titulo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
     flex-grow: 1;
