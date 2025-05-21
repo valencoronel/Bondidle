@@ -8,12 +8,13 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #74A9D8; /* Celeste */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    color: #fff; /* Texto blanco por defecto */
 }
 
 /* Header */
@@ -38,6 +39,7 @@ header {
     font-weight: bold;
     text-align: center;
     flex-grow: 1;
+    color: #fff; /* Blanco */
 }
 
 /* Contenedor principal del juego */
@@ -46,6 +48,7 @@ header {
     margin-top: 100px;
 }
 
+/* Estilo de entrada de texto */
 input[type="text"] {
     padding: 10px;
     width: 300px;
@@ -53,20 +56,24 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
+    background-color: #ffffff; /* Blanco para el input */
+    color: #333; /* Color oscuro para el texto del input */
 }
 
+/* Estilo de los botones */
 button {
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FFD700; /* Amarillo (un tono dorado como el sol de la bandera) */
+    color: #005AA7; /* Azul oscuro (un tono del azul de la bandera) */
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #FFCC00; /* Amarillo más oscuro */
+    color: #fff; /* Blanco al pasar el cursor */
 }
 
 /* Pie de página */
@@ -75,5 +82,5 @@ footer {
     bottom: 10px;
     text-align: center;
     font-size: 0.9rem;
-    color: #888;
+    color: #fff; /* Blanco */
 }
