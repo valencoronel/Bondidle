@@ -1,0 +1,79 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Título centrado */
+#titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Contenedor principal del juego */
+.game-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
